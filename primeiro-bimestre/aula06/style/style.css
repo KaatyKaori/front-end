@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+article{
+
+    background-image: url('https://store-images.s-microsoft.com/image/apps.18799.14047496556148589.9fda5cef-7995-4dbb-a626-66d2ab3feb4f.1e167626-8b7d-47b4-9fe5-d06a43ac6677');
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+
+font-family: 'Roboto', sans-serif;
+text-align: center;
+background-color: brown;
+
+}
