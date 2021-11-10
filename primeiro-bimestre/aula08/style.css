@@ -1,0 +1,95 @@
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.square {
+
+    width: 200px;
+    height: 200px;
+ 
+
+}
+
+
+.first-square {
+
+    background-color: rgb(156, 47, 47);
+    position: relative; 
+    left: 1px;
+    top: 1px;
+    padding: 24px;
+    
+    
+}
+
+.second-square {
+
+    background-color: rgb(20, 159, 194);
+    position: absolute;
+    right: 10px;    
+    top: 10px;
+    padding: 24px;
+
+
+
+}
+
+.third-square {
+
+    background-color: rgb(231, 210, 19);
+    position: fixed;
+    left: 860px;
+    bottom: 10px;
+    padding: 24px;
+
+}
+
+
+.caixa-interna {
+
+    width: 10%;
+    height: 10%;
+    background-color: skyblue;
+    padding: 24px;
+    position: relative;
+    bottom: 225px;
+    left: 05px;
+    padding: 24px;
+    text-align: center;
+}
+
+.caixa-interna2 {
+
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    padding: 24px;
+    position: relative;
+    right: -1660px;
+    top: -435px;
+    text-align: center;
+    
+}
+
+
+.caixa-interna3 {
+
+    width: 10%;
+    height: 10%;
+    background-color: grey;
+    padding: 24px;
+    position: fixed;
+    left: 865px;
+    bottom: 50px;
+    text-align: center;
+    
+}
+
+
+
