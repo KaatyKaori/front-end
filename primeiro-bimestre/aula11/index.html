@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="back">
+
+    <main>
+
+       
+        <form class="inputForm">
+
+            <h2>Cadastro de Usuário</h2>
+            <fieldset>
+                <legend>Cadastro Usuário</legend>
+
+            <div>
+                <label for="username">Nome Completo</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div>
+                <label for="birhtDate">Data de Nascimento</label>
+                <input type="date" name="birhtDate" id="birhtDate" >
+
+            </div>
+
+            <div>
+                <label for="userEmail">E-mail</label>
+                <input type="email" name="userEmail" id="userEmail">
+            </div>
+
+            <div>
+                <label for="tel">Whatsapp</label>
+                <input type="tel" name="Whatsapp" id="Whatsapp" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div>
+                <label for="userDescription">Depoimento</label>
+                <textarea name="userDescription" id="userDescription"></textarea>
+            </div>
+
+            
+                
+        
+            </fieldset>
+
+            <div>
+                <h2>Pagamento</h2>
+                <fieldset>
+                    <legend>Pagamento</legend>
+                <div>
+                <label for="userPlan">Plano</label>
+                <select name="userPlan" id="userPlan">
+                    <option value="1">Básico</option>
+                    <option value="2">Médio</option>
+                    <option value="3">Premium</option>
+                </select>
+                </div>
+
+                <label for="credit">Crédito</label>
+                <input type="radio" name="payment" id="credit" checked></input>
+
+                <label for="debit">Débito</label>
+                <input type="radio" name="payment" id="debit"></input>
+
+                <label for="bill">Boleto</label>
+                <input type="radio" name="payment" id="bill"></input>
+
+            </div>
+                </fieldset>
+
+            <div>
+                <h2>Entrega</h2>
+                <fieldset>
+                    <legend>Entrega</legend>
+                
+                <label for="EmpresaX">Empresa X </label>
+                <input type="radio" name="tax" id="EmpresaX"></input>
+
+                <label for="EmpresaY">Empresa Y</label>
+                <input type="radio" name="tax" id="EmpresaY"></input>
+
+                <label for="shceduleDelivery">Agendar Entrega</label>
+                <input type="date" name="shceduleDelivery" id="shceduleDelivery" min="2021-11-16" max="2021">
+
+
+            </div>
+                </fieldset>
+
+                <h2>Opções</h2>
+                <fieldset>
+                <legend>Recomendados</legend>
+
+                <input type="checkbox" name="recommended" id="firstProduct">
+                <label for="firstProduct">Carregador</label>      
+                
+                <input type="checkbox" name="recommended" id="secondProduct">
+                <label for="secondProduct">Fone</label>   
+                </fieldset>
+        
+            </div>    
+                
+
+            </div>
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

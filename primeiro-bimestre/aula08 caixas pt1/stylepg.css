@@ -1,0 +1,41 @@
+img {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+
+ }
+
+ .main-tittle {
+
+    text-align: center;
+
+ }
+
+.description-image {
+
+        text-align: center;
+
+}
+
+.button {
+
+    position:relative; 
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: rgb(201, 193, 206);
+
+
+
+}
+
+.button:hover {
+
+    background-color:rgb(rgb(101, 22, 126), green, blue)
+}

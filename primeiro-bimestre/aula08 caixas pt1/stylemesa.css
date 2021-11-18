@@ -1,10 +1,10 @@
-{
+*{
 
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
+  
 }
 
 
@@ -45,8 +45,8 @@
     background-color: rgb(231, 210, 19);
     position: fixed;
     left: 860px;
-    bottom: 10px;
-    padding: 24px;
+    bottom: 50px;
+    padding: 30px;
 
 }
 
@@ -81,12 +81,12 @@
 .caixa-interna3 {
 
     width: 10%;
-    height: 10%;
+    height: 20%;
     background-color: grey;
     padding: 24px;
     position: fixed;
-    left: 865px;
-    bottom: 50px;
+    left: 870px;
+    bottom: 60px;
     text-align: center;
     
 }
